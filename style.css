@@ -1,33 +1,22 @@
-/* style.css */
-body {
-  background: #f0f8ff;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  padding: 20px;
-}
-
-.game-container {
-  max-width: 600px;
-  margin: auto;
-}
-
-.character {
-  width: 200px;
-  border-radius: 10px;
-}
-
-.dialogue {
-  margin: 20px;
-  font-size: 18px;
-  background: #fff8dc;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #ccc;
-}
-
+/* Fancy Buttons with Hover Effect */
 .choices button {
   margin: 10px;
-  padding: 10px 15px;
+  padding: 12px 20px;
   font-size: 16px;
   cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.choices button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.choices button:active {
+  transform: scale(0.95);
 }
