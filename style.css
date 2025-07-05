@@ -20,3 +20,23 @@
 .choices button:active {
   transform: scale(0.95);
 }
+.dialogue {
+  position: relative;
+  background: #fff8dc;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  margin: 20px;
+  font-size: 18px;
+}
+
+.dialogue::after {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 10px;
+  border-style: solid;
+  border-color: #fff8dc transparent transparent transparent;
+}
