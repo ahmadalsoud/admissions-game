@@ -1,0 +1,27 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admissions Adventure Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio id="bgMusic" src="audio/bg-music.mp3" autoplay loop></audio>
+  
+  <div class="game-container">
+    <img src="images/guide.png" alt="Guide Character" class="character">
+    <div class="dialogue" id="dialogue">
+      Hi! I’ll guide you through your Admissions journey! 🎓
+    </div>
+    <div class="choices">
+      <button onclick="choose('start')">Starting my application</button>
+      <button onclick="choose('submitted')">I submitted my application</button>
+      <button onclick="choose('accepted')">I got accepted</button>
+      <button onclick="choose('orientation')">I need help with Orientation</button>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
