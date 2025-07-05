@@ -1,0 +1,33 @@
+/* style.css */
+body {
+  background: #f0f8ff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.game-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.character {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.dialogue {
+  margin: 20px;
+  font-size: 18px;
+  background: #fff8dc;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.choices button {
+  margin: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
