@@ -81,3 +81,32 @@ body {
   border-style: solid;
   border-color: #fff8dc transparent transparent transparent;
 }
+.content-section {
+  text-align: left;
+}
+/* Mobile responsive improvements */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2em;
+  }
+  
+  .dialogue {
+    margin: 10px;
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  .choices button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .dialogue h3 {
+    font-size: 1.5em;
+  }
+  
+  .dialogue h4 {
+    font-size: 1.2em;
+  }
+}
