@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Knox College Admissions Guide</title>
   <meta name="description" content="Navigate your Knox College admissions journey with our interactive guide. Get step-by-step help with applications, requirements, and enrollment.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="game-container">
-<header class="header">
+  <div class="game-container">
+    <header class="header">
       <h1>Knox College Admissions Guide</h1>
+      <p>Your pathway to joining the Knox community</p>
     </header>
     
     <div class="dialogue" id="dialogue">
@@ -18,10 +19,13 @@
     </div>
     
     <div class="choices">
-<button onclick="choose('start')">I'm Starting My Application</button>
+      <button onclick="choose('start')">I'm Starting My Application</button>
       <button onclick="choose('submitted')">I've Submitted My Application</button>
       <button onclick="choose('accepted')">I've Been Accepted!</button>
       <button onclick="choose('orientation')">I Need Orientation Help</button>
     </div>
   </div>
   
+  <script src="script.js"></script>
+</body>
+</html>
