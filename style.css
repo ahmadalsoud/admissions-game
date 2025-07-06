@@ -40,3 +40,44 @@
   border-style: solid;
   border-color: #fff8dc transparent transparent transparent;
 }
+/* Character Image - Smaller & Centered */
+.character {
+  width: 150px;  /* Adjust this value to control size */
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* Add Background Image to Body */
+body {
+  background-image: url('images/background.jpg');  /* Put your background image in /images/ */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Speech Bubble Style (Manga-like) */
+.dialogue {
+  position: relative;
+  background: #fff8dc;
+  padding: 15px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #999;
+  margin: 20px;
+  font-size: 18px;
+  display: inline-block;
+  max-width: 80%;
+}
+
+.dialogue::after {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 15px;
+  border-style: solid;
+  border-color: #fff8dc transparent transparent transparent;
+}
