@@ -49,7 +49,7 @@
 
 /* Add Background Image to Body */
 body {
-  background-image: url('images/background.jpg');  /* Put your background image in /images/ */
+  background-image: url('images/Blaze_at_Alumni_Hall.jpg');  /* Put your background image in /images/ */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
